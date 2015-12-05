@@ -38,12 +38,14 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  config.secret_key_base = 'bdd1e74927a454bede8da72d2fefc9ede7b36160c106c856a3bb99bbc25a6ba08cab35134058d983703917f69a05678cb56639d5b1c080548308e93d86931de4
+'
 
   # ActionMailer Config
   # change to true to allow email to be sent during development
   config.action_mailer.perform_deliveries = false
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default charset: "utf-8"  
+  config.action_mailer.default charset: "utf-8"
   config.action_mailer.default_url_options = { host: 'example.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
