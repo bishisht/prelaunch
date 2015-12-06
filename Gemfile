@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
-gem 'rails', '4.2.1'
+ruby '2.2.3'
+gem 'rails', '4.2.5'
 gem 'rubyzip', '~> 1.0.0'
 gem 'sqlite3'
 group :development, :test do
